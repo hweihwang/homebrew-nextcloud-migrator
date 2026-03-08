@@ -1,8 +1,8 @@
 cask "nextcloud-migrator" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.3"
-  sha256 arm: "97b88934a756c5b6b68bb96662be778fc21f0a90118bb212b73706249d9f7e34", intel: "824d87f78593b0237929c9c2bb9adbddd85ba0d53721afe5613b3d03c67b5d63"
+  version "0.1.4"
+  sha256 arm: "d2ac4199df25547dc7be62d387e537cd11fa7ecceb2e98c604b2872ad9004fae", intel: "ade3d0e60fe6ff7c1ce2ecdd2a36bee38ef5c6cb466fd8c8e931835cd2f68e5b"
 
   url "https://github.com/hweihwang/nextcloud-migrator-releases/releases/download/v#{version}/Nextcloud-Migrator-mac-#{arch}.dmg",
       verified: "github.com/hweihwang/nextcloud-migrator-releases/"
